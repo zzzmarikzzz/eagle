@@ -1,0 +1,6 @@
+(gerbv-file-version! "2.0B")
+(define-layer! 2 (cons 'filename "T2313_DemoBoard.bot")(cons 'visible #t)(cons 'color #(65535 65535 65535 45489)))
+(define-layer! 1 (cons 'filename "T2313_DemoBoard.bst")(cons 'visible #f)(cons 'color #(0 0 0 45489)))
+(define-layer! 0 (cons 'filename "T2313_DemoBoard.drd")(cons 'visible #t)(cons 'color #(0 0 0 45489))(cons 'attribs (list (list 'autodetect 'Boolean 1) (list 'zero_supression 'Enum 0) (list 'units 'Enum 0) (list 'digits 'Integer 4))))
+(define-layer! -1 (cons 'filename "/home/marik/eagle/T2313_DemoBoard")(cons 'scale #(0 0))(cons 'visible #f)(cons 'color #(20612 20612 20612 65535)))
+(set-render-type! 3)

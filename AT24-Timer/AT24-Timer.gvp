@@ -1,0 +1,8 @@
+(gerbv-file-version! "2.0B")
+(define-layer! 4 (cons 'filename "AT24-Timer.ref")(cons 'visible #t)(cons 'color #(0 0 0 45489)))
+(define-layer! 3 (cons 'filename "AT24-Timer.tsi")(cons 'visible #t)(cons 'color #(65535 65535 65535 45489)))
+(define-layer! 2 (cons 'filename "AT24-Timer.bot")(cons 'visible #f)(cons 'color #(65535 65535 65535 45489)))
+(define-layer! 1 (cons 'filename "AT24-Timer.bst")(cons 'visible #f)(cons 'color #(0 0 0 45489)))
+(define-layer! 0 (cons 'filename "AT24-Timer.drd")(cons 'visible #f)(cons 'color #(0 0 0 45489))(cons 'attribs (list (list 'autodetect 'Boolean 1) (list 'zero_supression 'Enum 0) (list 'units 'Enum 0) (list 'digits 'Integer 4))))
+(define-layer! -1 (cons 'filename "/home/marik/eagle/AT24-Timer")(cons 'scale #(0 0))(cons 'visible #f)(cons 'color #(22025 22025 22025 65535)))
+(set-render-type! 3)
