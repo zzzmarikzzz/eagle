@@ -38,7 +38,7 @@
 <layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
-<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
@@ -695,6 +695,9 @@ Timer</text>
 <text x="5.3975" y="24.4475" size="1.4224" layer="16" ratio="20" rot="SMR90" align="bottom-center">zzzMariKzzz
 2015</text>
 <rectangle x1="0" y1="-1.905" x2="100.33" y2="49.53" layer="49"/>
+<hole x="26.67" y="48.26" drill="0.6"/>
+<hole x="9.2075" y="-0.9525" drill="0.6"/>
+<hole x="98.425" y="-0.9525" drill="0.6"/>
 </plain>
 <libraries>
 <library name="usb">

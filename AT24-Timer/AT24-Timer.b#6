@@ -9,12 +9,12 @@
 <grid distance="12.5" unitdist="mil" unit="mil" style="dots" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
@@ -54,8 +54,8 @@
 <layer number="96" name="Values" color="7" fill="1" visible="no" active="no"/>
 <layer number="97" name="Info" color="7" fill="1" visible="no" active="no"/>
 <layer number="98" name="Guide" color="6" fill="1" visible="no" active="no"/>
-<layer number="100" name="TS" color="11" fill="1" visible="no" active="yes"/>
-<layer number="122" name="Text122" color="12" fill="1" visible="no" active="yes"/>
+<layer number="100" name="TS" color="11" fill="1" visible="yes" active="yes"/>
+<layer number="122" name="Text122" color="12" fill="1" visible="yes" active="yes"/>
 <layer number="250" name="Descript" color="3" fill="1" visible="no" active="no"/>
 <layer number="251" name="SMDround" color="12" fill="11" visible="no" active="no"/>
 </layers>
@@ -74,14 +74,6 @@
 <wire x1="18.0975" y1="27.94" x2="27.6225" y2="23.1775" width="0.4064" layer="100"/>
 <wire x1="61.9125" y1="12.7" x2="64.77" y2="12.7" width="0.4064" layer="100"/>
 <wire x1="57.15" y1="30.1625" x2="57.15" y2="35.2425" width="0.4064" layer="100"/>
-<wire x1="34.925" y1="13.335" x2="40.64" y2="18.0975" width="0.4064" layer="100"/>
-<wire x1="40.64" y1="18.0975" x2="69.5325" y2="21.59" width="0.4064" layer="100"/>
-<wire x1="31.75" y1="14.2875" x2="39.6875" y2="19.685" width="0.4064" layer="100"/>
-<wire x1="39.6875" y1="19.685" x2="60.0075" y2="21.9075" width="0.4064" layer="100"/>
-<wire x1="60.0075" y1="21.9075" x2="68.58" y2="26.035" width="0.4064" layer="100"/>
-<wire x1="66.3575" y1="27.6225" x2="60.0075" y2="24.4475" width="0.4064" layer="100"/>
-<wire x1="60.0075" y1="24.4475" x2="38.735" y2="22.225" width="0.4064" layer="100"/>
-<wire x1="38.735" y1="22.225" x2="29.5275" y2="15.24" width="0.4064" layer="100"/>
 <text x="7.62" y="26.035" size="1.778" layer="25" ratio="15" rot="R90">GND</text>
 <text x="7.62" y="41.275" size="1.778" layer="25" ratio="15" rot="R90">VCC</text>
 <text x="93.6625" y="45.085" size="1.778" layer="25" ratio="15" rot="R180">IN</text>

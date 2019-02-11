@@ -17,11 +17,10 @@ UsedLibrary="/home/marik/eagle-8.2.2/lbr/atmega8.lbr"
 UsedLibrary="/home/marik/eagle-8.2.2/lbr/holes.lbr"
 UsedLibrary="/home/marik/eagle-8.2.2/lbr/switch-tact.lbr"
 UsedLibrary="/home/marik/eagle-8.2.2/lbr/usb.lbr"
-UsedLibrary="/home/marik/eagle-8.2.2/lbr/usb123.lbr"
 
 [Win_1]
 Type="Control Panel"
-Loc="1850 24 2449 423"
+Loc="1793 -4 2392 395"
 State=1
 Number=0
 

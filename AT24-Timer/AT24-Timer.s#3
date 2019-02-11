@@ -14862,12 +14862,13 @@ MOC3020-M.pdf</description>
 <part name="T1" library="triac" deviceset="BT136" device=""/>
 <part name="OK1" library="optocoupler" deviceset="MOC30*M" device="" technology="22"/>
 <part name="R11" library="rcl" deviceset="R-EU_" device="R0805" value="470"/>
-<part name="R12" library="rcl" deviceset="R-EU_" device="0207/2V" value="470"/>
-<part name="R13" library="rcl" deviceset="R-EU_" device="0207/2V" value="360"/>
-<part name="R14" library="rcl" deviceset="R-EU_" device="0207/2V" value="39"/>
+<part name="R12" library="rcl" deviceset="R-EU_" device="0207/7" value="470"/>
+<part name="R13" library="rcl" deviceset="R-EU_" device="0207/7" value="360"/>
+<part name="R14" library="rcl" deviceset="R-EU_" device="0207/7" value="39"/>
 <part name="C7" library="rcl" deviceset="C-EU" device="150-054X183" value="0.047uF"/>
 <part name="C8" library="rcl" deviceset="C-EU" device="102-043X133" value="0.01uF"/>
 <part name="GND10" library="supply1" deviceset="GND" device=""/>
+<part name="C10" library="rcl" deviceset="C-EU" device="C0805" value="330nF"/>
 </parts>
 <sheets>
 <sheet>
@@ -14944,6 +14945,7 @@ MOC3020-M.pdf</description>
 <instance part="C7" gate="G$1" x="-20.32" y="-17.78"/>
 <instance part="C8" gate="G$1" x="10.16" y="-17.78"/>
 <instance part="GND10" gate="1" x="-58.42" y="-17.78"/>
+<instance part="C10" gate="G$1" x="-175.26" y="149.86"/>
 </instances>
 <busses>
 </busses>

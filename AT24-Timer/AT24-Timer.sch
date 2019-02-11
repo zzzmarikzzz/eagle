@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.5.0">
+<eagle version="8.2.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.025" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
@@ -16508,8 +16508,8 @@ MOC3020-M.pdf</description>
 <part name="T1" library="triac" deviceset="BT136" device=""/>
 <part name="OK1" library="optocoupler" deviceset="MOC30*M" device="" technology="22"/>
 <part name="R11" library="rcl" deviceset="R-EU_" device="R0805" value="470"/>
-<part name="R12" library="rcl" deviceset="R-EU_" device="0207/7" value="470"/>
-<part name="R13" library="rcl" deviceset="R-EU_" device="0207/7" value="360"/>
+<part name="R12" library="rcl" deviceset="R-EU_" device="0207/7" value="4k7"/>
+<part name="R13" library="rcl" deviceset="R-EU_" device="0207/7" value="3k"/>
 <part name="R14" library="rcl" deviceset="R-EU_" device="0207/7" value="39"/>
 <part name="C7" library="rcl" deviceset="C-EU" device="150-054X183" value="0.047uF"/>
 <part name="C8" library="rcl" deviceset="C-EU" device="102-043X133" value="0.01uF"/>
@@ -16521,6 +16521,22 @@ MOC3020-M.pdf</description>
 <sheets>
 <sheet>
 <plain>
+<wire x1="6.35" y1="-5.715" x2="13.97" y2="-11.43" width="0.1524" layer="97"/>
+<wire x1="12.7" y1="-5.715" x2="6.35" y2="-10.795" width="0.1524" layer="97"/>
+<wire x1="7.62" y1="-17.145" x2="13.97" y2="-20.32" width="0.1524" layer="97"/>
+<wire x1="15.24" y1="-15.24" x2="7.62" y2="-20.955" width="0.1524" layer="97"/>
+<wire x1="-15.24" y1="-17.145" x2="-26.67" y2="-22.225" width="0.1524" layer="97"/>
+<wire x1="-22.86" y1="-17.78" x2="-15.24" y2="-20.32" width="0.1524" layer="97"/>
+<wire x1="-9.525" y1="-15.875" x2="-9.525" y2="-19.05" width="0.1524" layer="97"/>
+<wire x1="-9.525" y1="-19.05" x2="-8.89" y2="-19.05" width="0.1524" layer="97"/>
+<wire x1="-8.89" y1="-19.05" x2="-8.255" y2="-19.05" width="0.1524" layer="97"/>
+<wire x1="-8.255" y1="-19.05" x2="-8.255" y2="-15.875" width="0.1524" layer="97"/>
+<wire x1="-8.255" y1="-15.875" x2="-8.89" y2="-15.875" width="0.1524" layer="97"/>
+<wire x1="-8.89" y1="-15.875" x2="-9.525" y2="-15.875" width="0.1524" layer="97"/>
+<wire x1="-8.89" y1="-12.7" x2="-8.89" y2="-15.875" width="0.1524" layer="97"/>
+<wire x1="-8.89" y1="-19.05" x2="-8.89" y2="-20.32" width="0.1524" layer="97"/>
+<wire x1="-8.89" y1="-20.32" x2="-5.08" y2="-20.32" width="0.1524" layer="97"/>
+<text x="-10.16" y="-18.415" size="1.778" layer="97" rot="R90">3k</text>
 </plain>
 <instances>
 <instance part="Q3" gate="G$1" x="55.88" y="10.16" rot="MR0"/>

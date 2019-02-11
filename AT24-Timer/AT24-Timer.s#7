@@ -14609,6 +14609,8 @@ Source: 008-0260-0_E.pdf</description>
 <part name="P+3" library="supply1" deviceset="VCC" device=""/>
 <part name="GND7" library="supply1" deviceset="GND" device=""/>
 <part name="R10" library="rcl" deviceset="R-EU_" device="R0805" value="10k"/>
+<part name="X3" library="con-wago-500" deviceset="W237-102" device=""/>
+<part name="X4" library="con-wago-500" deviceset="W237-102" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -14672,6 +14674,10 @@ Source: 008-0260-0_E.pdf</description>
 <instance part="P+3" gate="VCC" x="-5.08" y="147.32"/>
 <instance part="GND7" gate="1" x="20.32" y="119.38"/>
 <instance part="R10" gate="G$1" x="15.24" y="127" rot="R180"/>
+<instance part="X3" gate="-1" x="-167.64" y="-30.48" rot="R90"/>
+<instance part="X3" gate="-2" x="-162.56" y="-30.48" rot="R90"/>
+<instance part="X4" gate="-1" x="-162.56" y="2.54" rot="R270"/>
+<instance part="X4" gate="-2" x="-167.64" y="2.54" rot="R270"/>
 </instances>
 <busses>
 </busses>
@@ -15228,6 +15234,13 @@ Source: 008-0260-0_E.pdf</description>
 <pinref part="U2" gate="G$1" pin="(ADC1/AIN0/PCINT1)PA1"/>
 <wire x1="-53.34" y1="101.6" x2="-35.56" y2="101.6" width="0.1524" layer="91"/>
 <wire x1="-35.56" y1="101.6" x2="-35.56" y2="121.92" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$1" class="0">
+<segment>
+<pinref part="X3" gate="-2" pin="KL"/>
+<pinref part="X4" gate="-1" pin="KL"/>
+<wire x1="-162.56" y1="-25.4" x2="-162.56" y2="-2.54" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
