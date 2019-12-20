@@ -1,0 +1,24 @@
+{
+    "Header": {
+        "Comment": "All values are metric (mm)",
+        "CreationDate": "2019-12-08T10:34:51Z",
+        "GenerationSoftware": {
+            "Application": "EAGLE",
+            "Vendor": "Autodesk",
+            "Version": "9.5.2"
+        },
+        "Part": "Single"
+    },
+    "Overall": {
+        "BoardThickness": 1.57,
+        "LayerNumber": 2,
+        "Name": {
+            "ProjectId": "Box_Light_NEW"
+        },
+        "Owner": "Roman Dyunin <zzzmarikzzz@gmail.com>",
+        "Size": {
+            "X": 32.0675,
+            "Y": 38.1
+        }
+    }
+}
