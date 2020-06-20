@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.5.0">
+<eagle version="9.6.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
+<setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
@@ -4296,24 +4297,64 @@ Source: AVX .. aphvc.pdf</description>
 <plain>
 </plain>
 <instances>
-<instance part="X1" gate="G$1" x="-45.72" y="60.96" rot="R270"/>
-<instance part="IC1" gate="1" x="10.16" y="66.04"/>
-<instance part="P+1" gate="1" x="-7.62" y="99.06"/>
-<instance part="GND1" gate="1" x="-12.7" y="78.74"/>
-<instance part="GND2" gate="1" x="30.48" y="35.56"/>
-<instance part="GND3" gate="1" x="58.42" y="91.44"/>
-<instance part="GND4" gate="1" x="40.64" y="73.66"/>
-<instance part="GND6" gate="1" x="-5.08" y="43.18"/>
-<instance part="C1" gate="G$1" x="-7.62" y="86.36"/>
-<instance part="C2" gate="G$1" x="-7.62" y="68.58"/>
-<instance part="TX" gate="G$1" x="60.96" y="99.06"/>
-<instance part="RX" gate="G$1" x="60.96" y="96.52"/>
-<instance part="MISO" gate="G$1" x="45.72" y="86.36"/>
-<instance part="SCK" gate="G$1" x="45.72" y="83.82"/>
-<instance part="MOSI" gate="G$1" x="45.72" y="81.28"/>
-<instance part="RST" gate="G$1" x="45.72" y="78.74"/>
-<instance part="GND_UART" gate="G$1" x="60.96" y="93.98"/>
-<instance part="GND" gate="G$1" x="45.72" y="76.2"/>
+<instance part="X1" gate="G$1" x="-45.72" y="60.96" smashed="yes" rot="R270">
+<attribute name="VALUE" x="-55.88" y="68.58" size="1.778" layer="96" rot="R270"/>
+<attribute name="NAME" x="-58.42" y="68.58" size="1.778" layer="95" rot="R270"/>
+</instance>
+<instance part="IC1" gate="1" x="10.16" y="66.04" smashed="yes">
+<attribute name="NAME" x="0" y="92.71" size="1.778" layer="95"/>
+<attribute name="VALUE" x="0" y="35.56" size="1.778" layer="96"/>
+</instance>
+<instance part="P+1" gate="1" x="-7.62" y="99.06" smashed="yes">
+<attribute name="VALUE" x="-10.16" y="93.98" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="GND1" gate="1" x="-12.7" y="78.74" smashed="yes">
+<attribute name="VALUE" x="-15.24" y="76.2" size="1.778" layer="96"/>
+</instance>
+<instance part="GND2" gate="1" x="30.48" y="35.56" smashed="yes">
+<attribute name="VALUE" x="27.94" y="33.02" size="1.778" layer="96"/>
+</instance>
+<instance part="GND3" gate="1" x="58.42" y="91.44" smashed="yes">
+<attribute name="VALUE" x="55.88" y="88.9" size="1.778" layer="96"/>
+</instance>
+<instance part="GND4" gate="1" x="40.64" y="73.66" smashed="yes">
+<attribute name="VALUE" x="38.1" y="71.12" size="1.778" layer="96"/>
+</instance>
+<instance part="GND6" gate="1" x="-5.08" y="43.18" smashed="yes">
+<attribute name="VALUE" x="-7.62" y="40.64" size="1.778" layer="96"/>
+</instance>
+<instance part="C1" gate="G$1" x="-7.62" y="86.36" smashed="yes">
+<attribute name="NAME" x="-6.096" y="86.741" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-6.096" y="81.661" size="1.778" layer="96"/>
+</instance>
+<instance part="C2" gate="G$1" x="-2.54" y="68.58" smashed="yes">
+<attribute name="NAME" x="-6.096" y="71.501" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-6.096" y="66.421" size="1.778" layer="96"/>
+</instance>
+<instance part="TX" gate="G$1" x="60.96" y="99.06" smashed="yes">
+<attribute name="NAME" x="64.77" y="98.425" size="1.778" layer="95"/>
+</instance>
+<instance part="RX" gate="G$1" x="60.96" y="96.52" smashed="yes">
+<attribute name="NAME" x="64.77" y="95.885" size="1.778" layer="95"/>
+</instance>
+<instance part="MISO" gate="G$1" x="45.72" y="86.36" smashed="yes">
+<attribute name="NAME" x="49.53" y="85.725" size="1.778" layer="95"/>
+</instance>
+<instance part="SCK" gate="G$1" x="45.72" y="83.82" smashed="yes">
+<attribute name="NAME" x="49.53" y="83.185" size="1.778" layer="95"/>
+</instance>
+<instance part="MOSI" gate="G$1" x="45.72" y="81.28" smashed="yes">
+<attribute name="NAME" x="49.53" y="80.645" size="1.778" layer="95"/>
+</instance>
+<instance part="RST" gate="G$1" x="45.72" y="78.74" smashed="yes">
+<attribute name="NAME" x="49.53" y="78.105" size="1.778" layer="95"/>
+</instance>
+<instance part="GND_UART" gate="G$1" x="60.96" y="93.98" smashed="yes">
+<attribute name="NAME" x="64.77" y="93.345" size="1.778" layer="95"/>
+</instance>
+<instance part="GND" gate="G$1" x="45.72" y="76.2" smashed="yes">
+<attribute name="NAME" x="49.53" y="75.565" size="1.778" layer="95"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -4371,7 +4412,7 @@ Source: AVX .. aphvc.pdf</description>
 <pinref part="GND1" gate="1" pin="GND"/>
 <pinref part="C1" gate="G$1" pin="2"/>
 <pinref part="C2" gate="G$1" pin="1"/>
-<wire x1="-12.7" y1="73.66" x2="-7.62" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="-7.62" y1="73.66" x2="-7.62" y2="81.28" width="0.1524" layer="91"/>
 <wire x1="-7.62" y1="81.28" x2="-12.7" y2="81.28" width="0.1524" layer="91"/>
 <junction x="-12.7" y="81.28"/>
 </segment>
@@ -4408,7 +4449,7 @@ Source: AVX .. aphvc.pdf</description>
 <pinref part="IC1" gate="1" pin="3V3OUT"/>
 <pinref part="C2" gate="G$1" pin="2"/>
 <wire x1="-2.54" y1="60.96" x2="-7.62" y2="60.96" width="0.1524" layer="91"/>
-<wire x1="-7.62" y1="60.96" x2="-12.7" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="-7.62" y1="60.96" x2="-7.62" y2="66.04" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$1" class="0">
