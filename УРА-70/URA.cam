@@ -9,7 +9,7 @@
     "output_type": "directory",
     "outputs": [
         {
-            "filename_prefix": "GerberFiles",
+            "filename_prefix": "CAMOutputs/",
             "format_specifier": {
                 "decimal": 4,
                 "integer": 3
@@ -19,7 +19,7 @@
             "outputs": [
                 {
                     "advanced_options": {
-                        "mirror": true,
+                        "mirror": false,
                         "offset_x": 0,
                         "offset_y": 0,
                         "rotate": false,
@@ -30,23 +30,23 @@
                         "file_function": "Copper",
                         "layer": 1,
                         "layer_details": "mixed",
-                        "layer_type": "Top"
+                        "layer_type": "Bottom"
                     },
-                    "filename_format": "%PREFIX/%N.top",
+                    "filename_format": "%PREFIX/%FF.bot",
                     "layers": [
-                        1,
+                        16,
                         17,
                         18,
                         20
                     ],
                     "milling": false,
-                    "name": "Top",
+                    "name": "Bottom",
                     "polarity": "positive",
                     "type": "gerber_layer"
                 },
                 {
                     "advanced_options": {
-                        "mirror": true,
+                        "mirror": false,
                         "offset_x": 0,
                         "offset_y": 0,
                         "rotate": false,
@@ -55,18 +55,18 @@
                     "board_outline": false,
                     "config": {
                         "file_function": "Soldermask",
-                        "layer_type": "top",
+                        "layer_type": "Bottom",
                         "layers": [
                         ],
                         "polarity": "positive"
                     },
-                    "filename_format": "%PREFIX/%N.tst",
+                    "filename_format": "%PREFIX/%FF.bst",
                     "layers": [
-                        20,
-                        29
+                        30,
+                        20
                     ],
                     "milling": false,
-                    "name": "Silk",
+                    "name": "B_Stop",
                     "polarity": "positive",
                     "type": "gerber_layer"
                 }
@@ -74,7 +74,7 @@
             "version": "RS274X"
         },
         {
-            "filename_prefix": "GerberFiles",
+            "filename_prefix": "CAMOutputs/",
             "format_specifier": {
                 "decimal": 3,
                 "integer": 3
@@ -83,7 +83,7 @@
             "outputs": [
                 {
                     "advanced_options": {
-                        "mirror": true,
+                        "mirror": false,
                         "offset_x": 0,
                         "offset_y": 0,
                         "rotate": false,
@@ -94,7 +94,7 @@
                         "PTH": true,
                         "VIA": true
                     },
-                    "filename_format": "%DRILLPREFIX/%N.dri",
+                    "filename_format": "%DRILLPREFIX/drills_%FROM_%TO.dri",
                     "layers": {
                         "from": 1,
                         "to": 16
@@ -117,8 +117,8 @@
             ]
         }
     ],
-    "timestamp": "2023-08-23T12:54:52",
+    "timestamp": "2021-03-15T14:56:08",
     "type": "EAGLE CAM job",
-    "units": "imperial",
+    "units": "metric",
     "version": "9.2.0"
 }
